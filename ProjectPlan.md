@@ -77,11 +77,24 @@ more variables to test out if needed.
 
 Spotify provides a unique quantitative representation of sound, enabling objective comparison of musical styles across time. This will be used to identify the driving factors of success, whether it be a song's danceability, the time, or even the tempo. This will be used to find the accurate correlation for all the questions we have.
 
-
-5. Plan
-
 6. Timeline
+- The following is our projected timeline:
+**Week 1:** We'll work on extracting the Spotify API and converting the data into a dataframe into what variables we would require, as mentioned above. Then we will match the Billboard entries to Spotify tracks using artist and title fuzzy matching.
+  
+**Week 2 (Oct 27 - Nov 3):** Clean the data sets by removing duplicates and/or missing values. making sure that our table is in a unified table with one row per song containing both chart and audio metrics
 
+**Week 3 (Nov 3 - Nov 10):** perform various statistical measures to understand the data size, variability, and an overall summary. Vizualize long-term trends across the decades using lineplots and heatmaps. Finally, looking at the correlation between certain attributes and billboard ranks.
+
+**Week 4 (Nov 10 - Nov 17):** Work on the intermediate report, highlighting the project's direction, goal and insights gained so far. Working on modelling, such as regression (multiple and logistic) and maybe random forests to get different accuracies and better understanding.
+
+**Week 5 (Nov 17- Nov 24):** Create a clear and concise visualization using matplotlib and seaborn to show the musical evolution. Also finalizing the documentation and preparing the repository for submission.
+
+**Week 6 (Nov 24 - Dec 1):** Go to Office hours and go through our project and see if we missed any aspect, and how we can maybe improve our model. Compile findings and push all material to GitHub.
+  
 7. Constraints
+Some constraints we expect to run into are as follows:
+- **API Rate Limits:** Spotify's Web API has request limits (typically 100 calls/minute), which may slow data collection for large data sets.
+- **Licensing Restriction:** The Billboard dataset is under non-commercial terms, so we have to make sure that we aren't using/giving this data to give to a third party.
+- **Data matching Limitation:** Song title/artist mismatch between Billboard and Spotify may lead to missing records.
 
 8. Gaps
