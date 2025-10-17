@@ -8,6 +8,14 @@ The project will cover the entire data lifecycle, from acquisition through clean
 
 2. Research Questions
 
+A.)What specific musical attributes (such as danceability, energy, tempo, and valence) are most strongly associated with higher chart performance on the Billboard Hot 100?
+
+B.)How have these key musical features evolved across decades (1960s–2020s)?
+
+C.)Are there measurable differences between “hit” songs in the pre-streaming era and the modern digital/streaming era?
+
+D.)Is there a relationship between a song’s audio profile and its longevity on the charts (measured by weeks on the chart)?
+
 3. Team Responsibilities
 
 4. Data Sources
