@@ -79,6 +79,7 @@ Spotify provides a unique quantitative representation of sound, enabling objecti
 
 6. Timeline
 - The following is our projected timeline:
+
 **Week 1:** We'll work on extracting the Spotify API and converting the data into a dataframe into what variables we would require, as mentioned above. Then we will match the Billboard entries to Spotify tracks using artist and title fuzzy matching.
   
 **Week 2 (Oct 27 - Nov 3):** Clean the data sets by removing duplicates and/or missing values. making sure that our table is in a unified table with one row per song containing both chart and audio metrics
@@ -96,5 +97,9 @@ Some constraints we expect to run into are as follows:
 - **API Rate Limits:** Spotify's Web API has request limits (typically 100 calls/minute), which may slow data collection for large data sets.
 - **Licensing Restriction:** The Billboard dataset is under non-commercial terms, so we have to make sure that we aren't using/giving this data to give to a third party.
 - **Data matching Limitation:** Song title/artist mismatch between Billboard and Spotify may lead to missing records.
+- **Resources:** Handling large datasets and processing extensive audio feature data may demand more efficient Python optimization.
 
 8. Gaps
+- **Incomplete data between data sets:** Some Billboard records lack exact release dates or artist IDs needed for accurate Spotify lookups.
+- **Model Selection:** Still don't have a clear idea of which model to use to perform the necessary prediction, so we will have to first have to conduct our initial exploratory.
+- **Streaming Era:** learning and defining the transition between the "pre-streaming" and post-streaming era is necessary, so maybe creating a cutoff year that accurately represents that can be looked into.
