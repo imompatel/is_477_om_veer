@@ -51,6 +51,31 @@ Key Fields: date, title, artist, rank, last_week, peak_pos, weeks_on_chart, imag
 The Billboard dataset represents the dependent variable in our analysis—the measurable indicator of success. It captures the performance of thousands of songs over six decades, providing a context for comparing changes in musical trends.
 
 
+Spotify Web API Audio Features
+
+Source: Spotify Developer Web API
+
+Access: Client Credentials Flow 
+
+Format: JSON responses converted to tabular form
+
+Selected Attributes:
+
+danceability – suitability for dancing (0–1)
+
+energy – intensity and activity (0–1)
+
+tempo – beats per minute
+
+valence – musical positivity (0–1)
+
+acousticness, speechiness, instrumentalness, liveness – compositional traits
+
+popularity – Spotify’s engagement score
+
+more variables to test out if needed.
+
+Spotify provides a unique quantitative representation of sound, enabling objective comparison of musical styles across time. This will be used to identify the driving factors of success, whether it be a song's danceability, the time, or even the tempo. This will be used to find the accurate correlation for all the questions we have.
 
 
 5. Plan
