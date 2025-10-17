@@ -36,6 +36,23 @@ Veer - Documentation and Visualization Lead
 
 4. Data Sources
 
+Billboard Hot 100 Historical Dataset
+
+Source: Kaggle – “Billboard Hot 100 & More”
+
+License: Creative Commons BY-NC-SA 4.0 (non-commercial use permitted)
+
+Coverage: 1963 – Present (updated weekly)
+
+Format: Comma-separated values (CSV)
+
+Key Fields: date, title, artist, rank, last_week, peak_pos, weeks_on_chart, image_url
+
+The Billboard dataset represents the dependent variable in our analysis—the measurable indicator of success. It captures the performance of thousands of songs over six decades, providing a context for comparing changes in musical trends.
+
+
+
+
 5. Plan
 
 6. Timeline
