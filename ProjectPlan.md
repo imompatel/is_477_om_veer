@@ -19,12 +19,19 @@ D.)Is there a relationship between a song’s audio profile and its longevity on
 3. Team Responsibilities
 
 Om - Data Inegration and Analysis Lead
+
   -Acquire Billboard and Spotify Datasets
+  
   -Write Python Scripts for cleaning, merging, and enriching datasets
+  
   -Ensure reproducibility, workflow automation, and documentation
+  
 Veer - Documentation and Visualization Lead
+
   -Develop visualizations (time trends, correlations, and decade comparisons)
+  
   -Manage project documentation
+  
   -Create and format visual deliverables for presentation and submission
 
 4. Data Sources
