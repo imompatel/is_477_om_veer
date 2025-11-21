@@ -1,0 +1,47 @@
+RAW = "data/raw"
+CLEAN = "data/cleaned"
+INTEGRATED = "data/integrated"
+S = "scripts"
+
+rule all:
+    input:
+        f"{INTEGRATED}/integrated_billboard_spotify.csv"
+
+rule fetch_billboard:
+    output:
+        f"{RAW}/billboard_hot_100.csv"
+    shell:
+        "python {S}/fetch_billboard_data.py"
+
+rule clean_billboard:
+    input:
+        f"{RAW}/billboard_hot_100.csv"
+    output:
+        f"{CLEAN}/billboard_cleaned.csv"
+    shell:
+        "python {S}/clean_billboard.py"
+
+rule fetch_spotify:
+    input:
+        f"{CLEAN}/billboard_cleaned.csv"
+    output:
+        f"{RAW}/spotify_features.csv"
+    shell:
+        "python {S}/fetch_spotify_data.py"
+
+rule clean_spotify:
+    input:
+        f"{RAW}/spotify_features.csv"
+    output:
+        f"{CLEAN}/spotify_cleaned.csv"
+    shell:
+        "python {S}/clean_spotify.py"
+
+rule integrate:
+    input:
+        f"{CLEAN}/billboard_cleaned.csv",
+        f"{CLEAN}/spotify_cleaned.csv"
+    output:
+        f"{INTEGRATED}/integrated_billboard_spotify.csv"
+    shell:
+        "python {S}/integrate_datasets.py"

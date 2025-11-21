@@ -1,0 +1,44 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+ENV/
+.Python
+
+# Packaging & build
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+wheels/
+
+# Jupyter
+.ipynb_checkpoints/
+analysis_output.ipynb
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# Snakemake cache
+.snakemake/
+*.snakemake.log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# IDE / Editor
+.vscod
