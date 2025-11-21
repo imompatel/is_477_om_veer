@@ -41,3 +41,9 @@ Finish dataset merge and run basic descriptive statistics. Create simple visuals
 ### Week 4 (Dec 1–Dec 7) Not Started: 
 Analyze relationships between attributes and chart rank and work on an automated end-to-end workflow while making sure all the content is reproducible enough,
 Lastly, go through the checklist and main requirements and make sure everything is cleaned and ready to submit
+
+# Contriburtions
+
+### Om
+For my portion of the project, so far, I was primarily the person sourcing and finding the data. First, I went to Kaggle and found our dataset of the Billboard Top 100 hits over the years, with over 300,000 entries ranging from 1980 to the present, updated weekly. Next, I created a Spotify app in the Spotify Developer Portal to access the API so we can request Spotify to find songs on the platform and identify the variables we want to look at to see which songs are charting on the Billboard Top 100, using the metrics Spotify uses. So far in our project, I've uploaded these files with the API key in a .env file on our local hosting, rather than to GitHub, so I didn’t expose my API keys to the public. I also imported the Billboard 100 data set from Kaggle, and we started cleaning it together to ensure it was correct and error-free, just in case it was raw. The rest of my contribution was working with my teammate to provide the structure of our code, which was built out. The outline was done so we can have the process thought out to make a clear plan of attack for the project. Also, it lets us visualize how the final run file should be executed. Currently, the only issue we have faced is our Spotify API request. We keep getting Spotify error 403, which means they are not accepting the request, and we need to figure out why. We had to use specific imports to authenticate our Spotify account and make these requests.
+
