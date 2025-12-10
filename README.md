@@ -12,7 +12,7 @@
 - **Description:** A data science analysis integrating Spotify audio features with Billboard chart history to identify predictors of Top 10 chart success.
 - **Version:** 1.0 (December 2025)
 - **Keywords:** music analytics, Spotify audio features, Billboard Hot 100, machine learning, data integration, feature importance, predictive modeling
-- **License:** MIT License (code), CC0/Public Domain (data), CC BY-NC-SA 4.0
+- **License:** MIT License (code), CC0/Public Domain (data)
 - **Related Identifiers:**  
   - Billboard Dataset — https://www.kaggle.com/datasets/dhruvildave/billboard-the-hot-100-songs  
   - Spotify Dataset — https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks
